@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Censimento</title>
+
+    <!-- MANCANO I LINK -->
+</head>
+<body>
+    <header id="titolo">
+        Censimento delle piante 2023
+    </header>
+    <main>
+        <aside>
+            <header>
+                Indice della pagina
+            </header>
+            <main>
+                <ul>
+                    <li><a>Inserisci controllo</a></li>
+                    <li><a>Statistiche</a></li>
+                </ul>
+                <a>Torna su</a>
+            </main>
+        </aside>
+        <section>
+            <article id="secIns">
+                <header>
+                    Inserimento di un controllo
+                </header>
+                <main>
+                    <select id="selTipi" multiple>
+                    </select>
+                    <!-- Il valore deve essere positivo -->
+                    Altezza:<input type="number" id="txtH">
+                    Raggio di larghezza:<input type="number" id="txtW">
+                    <div>
+                        <h3>La pianta è ...</h3>
+                        <!-- Devono essere in mutua esclusione -->
+                        <input type="radio">Malata
+                        <br>
+                        <input type="radio">Sana
+                    </div>
+                    <div>
+                        <h3>La pianta si trova in un ...</h3>
+                        <!-- Almeno una scelta è obbligatoria -->
+                        <input type="checkbox">parco
+                        <br>
+                        <input type="checkbox">viale
+                    </div>
+                    <button id="btnControllo">Aggiungi controllo</button>
+                </main>
+            </article>
+            <article id="secStat">
+                <header>
+                    Statistiche dei controlli
+                </header>
+                <main id="mainStat">
+    
+                </main>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <!-- Inserire il vostro nome e cognome! -->
+        Creato da Cognome Nome della 4 A Inf
+    </footer>
+</body>
+</html>

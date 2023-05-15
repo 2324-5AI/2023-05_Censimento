@@ -1,0 +1,4 @@
+/*
+    Ritornare un oggetto json che contenga i tipi di piante che si possono
+    censire con il numero di alberi ancora da controllare per ogni tipo.
+*/

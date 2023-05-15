@@ -1,0 +1,72 @@
+/*
+    SI VEDA IL VIDEO E SI COMPLETI LE SEGUENTI REGOLE PER OTTENERE LO STESSO RISULTATO.
+    Il css può essere cambiato, i selettori proposti sono solo consigliati.
+*/
+
+body{
+   
+}
+
+body > header{
+   
+}
+
+body > main{
+    
+}
+
+aside > main, main > section{
+  
+}
+
+aside{
+
+}
+
+header{
+    
+}
+
+aside > main{
+   
+}
+
+aside ul{
+    
+}
+
+aside a{
+   
+}
+
+aside li{
+
+}
+
+aside a:hover{
+    
+}
+
+main > section{
+
+}
+
+article:first-child > main{
+
+}
+
+input[type=number], select, button {
+
+}
+
+select{
+    
+}
+
+button{
+
+}
+
+button:hover{
+
+}
